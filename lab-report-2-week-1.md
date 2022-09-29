@@ -31,3 +31,5 @@ if that doesn't work try:
 `ssh aortel@ieng6.ucsd.edu` 
 
 If it is your first time connecting,type in yes and press enter. Then proceed by typing in your password. Once you are logged in, your terminal should look like this: 
+
+<img width="482" alt="Screen Shot 2022-09-28 at 4 53 16 PM" src="https://user-images.githubusercontent.com/114445845/193134935-de342cf1-9a6d-4bf8-83cd-262fcbdfed80.png">
