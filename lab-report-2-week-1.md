@@ -22,3 +22,12 @@ Your screen may look a little different depending on your visual settings(*for i
 
 ---
 ## **Step 2** - Connect Remotely
+Start by opening a terminal in VSCode and typing in the below command:
+
+`ssh cs15lfa22cl@ieng6.ucsd.edu` 
+
+if that doesn't work try: 
+
+`ssh aortel@ieng6.ucsd.edu` 
+
+If it is your first time connecting,type in yes and press enter. Then proceed by typing in your password. Once you are logged in, your terminal should look like this: 
