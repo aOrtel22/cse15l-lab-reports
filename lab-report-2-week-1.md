@@ -43,7 +43,6 @@ Congratulations! You are now logged into the remote ieng6 computer.
 ---
 ## **Step 3** - Run Some Commands
 Upon gaining access to the remote computer, I ran some commands to see what would be returned by the server. The first command I tired was `pwd` which returned the following: 
-=======
 
  ![Image](urmom.png)
 
@@ -127,7 +126,7 @@ Any combination of these techniques might look likes this:
 
 ![Image](OptimizePractice.png)
 
-As you can see, I ran a list of commands in one line. super easy and super efficient!
+As you can see, I ran a list of commands in one line. Super easy and super efficient!
 
 
 
