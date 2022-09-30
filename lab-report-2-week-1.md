@@ -39,3 +39,5 @@ Congratulations! You are now logged into the remote ieng6 computer.
 ---
 ## **Step 3** - Run Some Commands
 Upon gaining access to the remote computer, I ran some commands to see what would be returned by the server. The first command I tired was `pwd` which returned the following: 
+<img width="192" alt="Screen Shot 2022-09-28 at 4 54 33 PM" src="https://user-images.githubusercontent.com/114445845/193199876-bf2b3e82-3eba-402b-a74c-b9a57ca3f6d2.png">
+
