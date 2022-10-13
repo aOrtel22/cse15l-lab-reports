@@ -34,7 +34,15 @@ if that doesn't work try:
 ssh aortel@ieng6.ucsd.edu
 ``` 
 
-If it is your first time connecting,type in yes and press enter. Then proceed by typing in your password. Once you are logged in, your terminal should look like this: 
+If it is your first time connecting you should receive a message that looks like this:
+
+```
+ssh cs15lfa22zz@ieng6.ucsd.edu
+The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
+RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? 
+```
+Type in yes and press enter. Then proceed by typing in your password. Once you are logged in, your terminal should look like this: 
 
 <img width="482" alt="Screen Shot 2022-09-28 at 4 53 16 PM" src="https://user-images.githubusercontent.com/114445845/193134935-de342cf1-9a6d-4bf8-83cd-262fcbdfed80.png">
 
