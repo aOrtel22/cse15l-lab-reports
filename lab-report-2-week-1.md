@@ -75,6 +75,12 @@ Just like when logging into `ssh` you should be prompted with a password. After 
 
 Next, log back into `ssh` and use the `ls` command. You should find the file in your home directory ready to go!
 
+Once logged into the `ssh` if you were to compile and run the file again the output may look a little different: 
+
+![Image](sshScreen.png)
+
+As you can see the output on the remote server looks a litle different than the local client. This is because the information about the user and file is differnet now that it is on the remote server.
+
 --- 
 ## **Step 5** - Setting the SSH Key
 
