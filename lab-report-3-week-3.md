@@ -103,5 +103,49 @@ Now you can create any List of Strings and create your own queries!
 ---
 ## **Part 2 ~ Bugs and Symptoms** ##
 
-The different files I will be examining are the Array Methods files, and the List Methods files. Let's start with Array Methods.
+The different files I will be examining are the Array Methods files, and the List Methods files. Let's start with Array Methods, specifically the `reversed` method.
 
+I ran the following test to survey for errors: 
+
+
+![Image](ReverseTest.png)
+
+
+The symptoms that told me there was an error:
+
+
+![Image](ReversedSymptom.png)
+
+
+To fix this bug, I changed the program a little bit. Here was my solution:
+
+
+![Image](ReverseSolution.png)
+
+
+The problem is that the `reverse` method uses an empty array, `newArray`, to fill the reversed values of `arr`. This is a problem because the only values `newArray` has is 0. That is why the symptom output shows that the expected output was `<4>` while the actual output was `<0>`.
+
+ To fix this, I switch the positions of `newArray` and `arr` in the for loop and instead return `newArray` so that it properly stores the reversed values of `arr`. 
+
+
+The next file let's look at is in List Methods, specifically the `filter` method. 
+
+I ran the following test to survey for errors: 
+
+
+![Image](filterTest.png)
+
+
+The symptoms that told me there was an error:
+
+
+![Image](filterSymptom.png)
+
+
+My solution to the bug:
+
+
+![Image](filterSolution.png)
+
+
+The problem with the `filter` method is that it is inputting the checked strings backwards instead of forwards. To fix this, I changed (0,s) to just (s). 
