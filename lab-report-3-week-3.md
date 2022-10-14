@@ -148,4 +148,6 @@ My solution to the bug:
 ![Image](filterSolution.png)
 
 
-The problem with the `filter` method is that it is inputting the checked strings backwards instead of forwards. To fix this, I changed (0,s) to just (s). 
+The problem with the `filter` method is that it is inputting the checked strings backwards instead of forwards. In the symptom output, this is shown where index [0] was `<no>` instead of the expected `<yes>`. To fix this, I changed `.add(0,s)` to just `.add(s)` so that each element will be added at the end of the list.
+
+All debugging done!
