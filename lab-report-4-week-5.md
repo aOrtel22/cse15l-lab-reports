@@ -50,4 +50,4 @@ Expanding upon the previous command, `-size` also allows for lower and upper bou
 
 ![Image](sizeDelete.png)
 
-This command shows one way in which the `-size` can be used to clear memory. All files above 200kb in data where deleted, and then I used the find command again to verify that they were indeed deleted. This is useful when trying to erase outdated and unnecessary files that no are no longer needed, or when trying to clear up space by targeting large files. 
+This command shows one way in which the `-size` can be used to clear memory. All files above 200kb in data were deleted, and then I used the find command again to verify that they were indeed deleted. This is useful when trying to erase outdated and unnecessary files that no are no longer needed, or when trying to clear up space by targeting large files. 
